@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.d16e46c6.chunk.css",
-    "main.js": "/static/js/main.0f8547bd.chunk.js",
-    "main.js.map": "/static/js/main.0f8547bd.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b514ed92.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b514ed92.js.map",
-    "static/js/2.d482eca2.chunk.js": "/static/js/2.d482eca2.chunk.js",
-    "static/js/2.d482eca2.chunk.js.map": "/static/js/2.d482eca2.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.24ca55d56211759e1cd9035d46f36430.js": "/precache-manifest.24ca55d56211759e1cd9035d46f36430.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.d16e46c6.chunk.css.map": "/static/css/main.d16e46c6.chunk.css.map",
-    "static/js/2.d482eca2.chunk.js.LICENSE.txt": "/static/js/2.d482eca2.chunk.js.LICENSE.txt",
-    "static/media/left.jpg": "/static/media/left.b3292d43.jpg",
-    "static/media/right.jpg": "/static/media/right.ea919d17.jpg"
+    "main.css": "/CocktailPages/static/css/main.d16e46c6.chunk.css",
+    "main.js": "/CocktailPages/static/js/main.0f8547bd.chunk.js",
+    "main.js.map": "/CocktailPages/static/js/main.0f8547bd.chunk.js.map",
+    "runtime-main.js": "/CocktailPages/static/js/runtime-main.5344df58.js",
+    "runtime-main.js.map": "/CocktailPages/static/js/runtime-main.5344df58.js.map",
+    "static/js/2.d482eca2.chunk.js": "/CocktailPages/static/js/2.d482eca2.chunk.js",
+    "static/js/2.d482eca2.chunk.js.map": "/CocktailPages/static/js/2.d482eca2.chunk.js.map",
+    "index.html": "/CocktailPages/index.html",
+    "precache-manifest.b4c66bf675d5601302a365c3f85fb8eb.js": "/CocktailPages/precache-manifest.b4c66bf675d5601302a365c3f85fb8eb.js",
+    "service-worker.js": "/CocktailPages/service-worker.js",
+    "static/css/main.d16e46c6.chunk.css.map": "/CocktailPages/static/css/main.d16e46c6.chunk.css.map",
+    "static/js/2.d482eca2.chunk.js.LICENSE.txt": "/CocktailPages/static/js/2.d482eca2.chunk.js.LICENSE.txt",
+    "static/media/left.jpg": "/CocktailPages/static/media/left.b3292d43.jpg",
+    "static/media/right.jpg": "/CocktailPages/static/media/right.ea919d17.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b514ed92.js",
+    "static/js/runtime-main.5344df58.js",
     "static/js/2.d482eca2.chunk.js",
     "static/css/main.d16e46c6.chunk.css",
     "static/js/main.0f8547bd.chunk.js"
