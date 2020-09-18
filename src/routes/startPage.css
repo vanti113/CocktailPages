@@ -1,0 +1,119 @@
+.sp_body {
+  width: 100%;
+  height: 100vh;
+}
+
+.sp_header {
+  width: 100%;
+  height: 23%;
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.sp_header .header_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to left, #141e30, #243b55);
+  text-align: center;
+}
+.sp_header .header_title .title_font {
+  font-family: "Lobster", cursive;
+  font-size: 500%;
+  background: linear-gradient(
+    to left,
+    #8e9eab,
+    #eef2f3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.sp_header .header_sub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 250%;
+  font-family: "Cabin", sans-serif;
+  background: linear-gradient(to left, #8e9eab, #eef2f3);
+}
+
+.sp_main {
+  width: 100%;
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.sp_main_1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  font-size: 5em;
+}
+.sp_main_2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  font-size: 5em;
+}
+
+.sp_imgLeft_title,
+.sp_imgRight_title {
+  font-family: "Cabin", sans-serif;
+  opacity: 0.6;
+  left: 0%;
+  right: 0%;
+  top: 40%;
+  color: white;
+  position: absolute;
+  text-align: center;
+}
+
+.sp_main_1 img,
+.sp_main_2 img {
+  width: inherit;
+  height: inherit;
+}
+.sp_footer {
+  font-family: "Cabin", sans-serif;
+  width: 100%;
+  height: 10%;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.sp_footer div {
+  color: white;
+  font-size: 100%;
+  /* margin-right: 140px; */
+  display: flex;
+  align-items: center;
+}
+.sp_footer div span {
+  margin: 0px 5px;
+}
+.sp_footer div i {
+  font-size: 30px;
+}
+.link {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  border: none;
+}
+.link:hover .sp_imgLeft_title,
+.link:hover .sp_imgRight_title {
+  opacity: 1;
+}
+.link:hover .sp_main_1,
+.link:hover .sp_main_2 {
+  opacity: 0.8;
+}
+.link:hover .sp_imgLeft_title,
+.link:hover .sp_imgRight_title,
+.link:hover .sp_main_1,
+.link:hover .sp_main_2 {
+  transition: all 0.3s ease-in-out;
+}

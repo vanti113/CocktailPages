@@ -1,0 +1,155 @@
+.ordinary_detail {
+  display: flex;
+  justify-content: center;
+}
+.detail_loader {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lobster", cursive;
+  color: white;
+  font-size: 100px;
+}
+.ordinary_detail_main {
+  width: 60vw;
+  display: block;
+  /*  background: linear-gradient(to top, #e0eafc, #cfdef3); */
+  background: linear-gradient(to top, #8e9eab, #eef2f3);
+}
+.ordinary_detail_main .detail_top {
+  width: 100%;
+  height: 25vh;
+}
+.ordinary_detail_main .detail_title {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.ordinary_detail_main .detail_title span:nth-child(1) {
+  font-family: "Lobster", cursive;
+  /* font-size: 4rem; */
+  font-size: 400%;
+}
+.ordinary_detail_main .detail_title span:nth-child(2) {
+  font-family: "Cabin", sans-serif;
+  font-size: 1.3em;
+  margin-top: 20px;
+}
+.detail_main1 {
+  width: 100%;
+  /* height: 50%; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.detail_main1 .image_desc {
+  font-family: "Cabin", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+  height: 100%;
+}
+.detail_main1 .image_desc .mix_desc {
+  width: 14vw;
+  height: 7vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  font-size: 20px;
+}
+.main_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.detail_main1 .image_desc p {
+  width: 25vw;
+  height: 40vh;
+  background-color: inherit;
+  font-size: 1.3em;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: scroll;
+  text-align: center;
+  line-height: 30px;
+}
+
+.detail_main1 img {
+  width: 100%;
+}
+
+.footer {
+  width: 100%;
+
+  background-color: beige;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.footer_title {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+}
+.footer_title span {
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 30px;
+  font-family: "Cabin", sans-serif;
+}
+.footer .images {
+  padding: 20px 10px;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* grid-auto-flow: column; */
+  grid-auto-flow: row;
+  justify-items: center;
+  align-items: center;
+  column-gap: 3em;
+  row-gap: 1em;
+}
+.footer .images div {
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+.footer .images div hr {
+  width: 80%;
+}
+.footer .images img {
+  width: 90%;
+  margin-bottom: 5px;
+}

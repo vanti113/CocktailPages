@@ -1,0 +1,20 @@
+@import url("./routes/startPage.css");
+@import url("./routes/Ordinary.css");
+@import url("./components/drinkDetails.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Lobster&family=Roboto:wght@300&display=swap");
+
+#root {
+  width: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  background-color: #4d5766;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
